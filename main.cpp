@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
 		a = i % 3;
  		b = i % 5;
  		  
-  	    if (a && b)  // is not a multiple of 3 or 5
+  		if (a && b)  // is not a multiple of 3 or 5
   		    std::cout << i; 
    		
 		if (!a)
@@ -33,8 +33,7 @@ int main(int argc, char** argv) {
 		   
 		// note: if the number is multiple of both 3 and 5. you will see FizzBuzz on screen, as intended!
 		   
-		std::cout << "\t";  // tab
-				  
+		std::cout << "\t";  // tab		  
 	}
 	
 	std::cout << std::endl;
